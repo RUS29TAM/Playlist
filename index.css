@@ -1,6 +1,7 @@
 html, body {
     font-family: Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
+    background: rgba(0, 0, 0, 0.281);
   }
   
   input, button {
@@ -65,6 +66,7 @@ html, body {
   .input {
     display: flex;
     justify-content: space-between;
+    background: rgba(0, 0, 0, 0.281);
   }
   
   .input__submit {
@@ -154,7 +156,7 @@ html, body {
   }
   
   .footer {
-    background: rgb(255, 255, 255);
+    color: rgb(70, 68, 68);
     padding: 0 0 60px;
     margin: 0 auto;
     max-width: 100%;
@@ -172,7 +174,7 @@ html, body {
   @media screen and (max-width: 320px) {
     .footer {
       width: 320px;
-    }
+        }
   }
 
   .footer__copyright {
@@ -181,6 +183,7 @@ html, body {
     font-size: 18px;
     line-height: 1.22;
     color: rgb(70, 68, 68);
+
     padding: 0;
     margin: 0;
   }
